@@ -61,7 +61,7 @@ const App = () => {
                 // Dyanmically looping through movies array 
                 //which is fetched from an api
                 //dynamincally pass each individual movie as a prop to
-                //our movie card resulting in the rendering of the movvie
+                //our movie card resulting in the rendering of the movie
                 movies?.length > 0 
                 ? (
                     <div className="container">
