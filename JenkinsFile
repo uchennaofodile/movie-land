@@ -1,4 +1,4 @@
-pipellsine {
+pipeline {
   agent any
   stages {
     stage('Build') {
