@@ -10,7 +10,7 @@ pipeline {
     stage('Deploy') {
       environment {
         NETLIFY_SITE_ID = 'classy-paletas-f45a67'
-        NETLIFY_AUTH_TOKEN = credentials('ba-vNMoU8y8B2rDuqacldjrNo2hDxDm0nng1_rxyF4c')
+        NETLIFY_AUTH_TOKEN = credentials('netlify-token')
       }
       steps {
         sh 'npm install -g netlify-cli'
