@@ -1,4 +1,4 @@
 [[services]]
   internal_port = 3000
-  protocol = "http"
+  protocol = "https"
   script = "npm start"
