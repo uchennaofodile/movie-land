@@ -102,7 +102,7 @@ h1 {
 
 .empty h2 {
   font-size: 1.25rem;
-  color: #f9d3b4;
+  color: /*#f9d3b4;*/ #ffffff;
   font-family: /*var(--font-raleway);*/ Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
