@@ -15,7 +15,7 @@
 body {
   font-family: /*var(--font-roboto);*/
     Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-  background-color: #212426;
+  background-color: /*#212426;*/#000000;
 }
 
 .app {
@@ -31,8 +31,8 @@ h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
   background: linear-gradient(
-    90deg,
-    rgba(249, 211, 180, 1) 0%,
+    90deg, /*old rgba(249,211,1)*/
+    rgba(229,9,20,255) 0%,
     rgba(249, 211, 180, 0) 100%
   );
   background-clip: text;
@@ -136,7 +136,7 @@ h1 {
   width: 100%;
   opacity: 0;
   top: 0;
-  color: #f9d3b4;
+  color: /*#f9d3b4;*/#ffffff;
 }
 
 .movie:hover {
