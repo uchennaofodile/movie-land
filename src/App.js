@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./components/MovieCard";
+import Logo from "./MovieLand-Logo.png";
 
 // b9ce7ee4
 
@@ -38,7 +39,7 @@ const App = () => {
 
         <div className='app'>
             {/*<h1>MovieLand</h1>*/}
-            <img src="./MovieLand-Logo.png" alt="MovieLand Logo"></img>
+            <img src={Logo} alt="MovieLand Logo"></img>
 
 
             <div className="search">
