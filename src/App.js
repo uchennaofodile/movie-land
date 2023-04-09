@@ -37,7 +37,7 @@ const App = () => {
     return (
 
         <div className='app'>
-            //<h1>MovieLand</h1>
+            {/*<h1>MovieLand</h1>*/}
             <img href="./MovieLand-Logo.png" alt="MovieLand Logo"></img>
 
 
