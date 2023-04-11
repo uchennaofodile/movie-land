@@ -75,7 +75,10 @@ const App = () => {
                 ) : (
                     <div className="empty">
                         <h2>No movies found</h2>
+                        <hr/>
+                        <h6>Created By Uchenna Ofodile</h6>
                     </div>
+                    
                 )}
 
 
